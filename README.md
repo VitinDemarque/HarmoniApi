@@ -1,5 +1,7 @@
 # HarmoniApi
   Projeto em Desenvolvido para Conclusao de um Trabalho do 4° Periodo da Faculdade de Analise e Desenvolvimento de Sistemas na Materia de Desenvolvimento Web Back-EndI. Monitorado Pelo Professor [Flavio Motta](https://github.com/FlavioAAMotta).
+  link da nossa documentação no postman:
+  https://documenter.getpostman.com/view/30517343/2sAYBYgB2B
 
 ## 📘 Índice
   * Funcionalidades
