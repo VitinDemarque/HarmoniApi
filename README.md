@@ -14,7 +14,27 @@
 
 
 ## 🚀 Funcionalidades
-  * EM BREVE...
+1. Gestão de Usuários:
+    • Cadastro, autenticação e gerenciamento de usuários.
+    • Endpoints para criar, atualizar e deletar informações de usuários.
+
+2. Gerenciamento de Artistas:
+   • Cadastro de artistas, com informações como nome, gênero musical e detalhes adicionais.
+   • Consulta de artistas disponíveis no sistema.
+
+3. Gerenciamento de Músicas:
+   • CRUD (criação, leitura, atualização e exclusão) de músicas.
+   • Organização das músicas por artista e gênero.
+
+4. Criação e Gerenciamento de Playlists:
+   • Endpoints para criar playlists personalizadas, vinculando músicas a elas.
+   • Adicionar ou remover músicas de playlists.
+
+5. Integração com o Banco de Dados:
+   • Todos os dados, incluindo usuários, músicas, artistas e playlists, são armazenados e gerenciados via PostgreSQL.
+
+6. Simulação e Testes:
+   • Postman é usado para testar os endpoints, validar os dados e gerar documentação.
 
 ## 📦 Ferramentas e Tecnologias Utilizadas
   *  EM BREVE...
@@ -57,6 +77,4 @@
     </tr>
   </table>
 </div>
-
-
 
