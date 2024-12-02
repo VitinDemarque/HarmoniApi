@@ -47,10 +47,7 @@
 3. Ambiente de Desenvolvimento:
      * Postman para testes de integração e documentação da API.
 
-4. Autenticação e Segurança:
-     * JWT (ou similar) para autenticação baseada em tokens.
-
-5. Outros:
+4. Outros:
      * Git para controle de versão.
 
 ## 🛠️ Como rodar o projeto localmente
