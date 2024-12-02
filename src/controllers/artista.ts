@@ -2,7 +2,7 @@ import { Request, Response } from 'express';
 import knex from 'knex';
 import dotenv from 'dotenv';
 import { v7 as uuidv7 } from 'uuid';
-import { db } from '../config/db';
+import { db } from '../data/db';
 
 dotenv.config();
 

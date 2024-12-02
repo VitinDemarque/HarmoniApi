@@ -2,19 +2,9 @@ import { Request, Response } from 'express';
 import knex from 'knex';
 import { v7 as uuidv7 } from 'uuid';
 import dotenv from 'dotenv';
-
+import { db } from '../data/db';
 dotenv.config();
 
-const db = knex({
-  client: 'pg',
-  connection: {
-    host: process.env.DB_HOST,
-    port: parseInt(process.env.DB_PORT || '5432'),
-    user: process.env.DB_USER,
-    password: process.env.DB_PASSWORD,
-    database: process.env.DB_DATABASE,
-  },
-});
 
 export const getMusicas = async (req: Request, res: Response): Promise<void> => {
   const { artistaId, page, limit } = req.query;
